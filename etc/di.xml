@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="TradeCentric\Sample\Api\ModuleMetadataInterface" type="TradeCentric\Sample\Model\ModuleMetadata"/>
+	<virtualType name="TradeCentric\Sample\Block\Forms\Config\Version" type="TradeCentric\Version\Block\Forms\Config\Version">
+        <arguments>
+            <argument name="helper" xsi:type="object">TradeCentric\Sample\Helper\Module</argument>
+        </arguments>
+    </virtualType>
+</config>
