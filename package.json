@@ -1,0 +1,13 @@
+{
+  "name": "Magento_Sample",
+  "author": "TradeCentric Magento Sample",
+  "description": "TradeCentric Magento Sample",
+  "license": "(OSL-3.0 OR AFL-3.0)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tradecentric/Magento_Sample.git"
+  },
+  "homepage": "https://tradecentric.com/",
+  "devDependencies": {
+  },
+}
