@@ -1,0 +1,5 @@
+# Great Reference : https://help.github.com/en/articles/dealing-with-line-endings
+
+# Declare files that will always have lf line endings on checkout.
+#*.sh text eol=lf
+CODEOWNERS export-ignore
